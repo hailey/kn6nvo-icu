@@ -1,0 +1,42 @@
+baseURL = "https://kn6nvo.icu/"
+languageCode = "en-us"
+title = "Operator KN6NVO"
+theme="archie"
+author = "Hailey A Clark @ KN6NVO"
+copyright = "Copyright © 2021-2031, all rights reserved."
+description = "A HAM Operators Website"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[[params]]
+  mode="auto"
+  colorScheme = "scheme-darkbrown"
+  DateFormat = "2006 Jan 2"
+  description = "A blog about amature ham radio."
+  sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
+  useCDN=false
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "All posts"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+  icon = "github"
+  name = "GitHub"
+  url = "https://github.com/hailey/"
